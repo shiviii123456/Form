@@ -1,0 +1,14 @@
+import {
+  COUNTRY_CODE,
+  FIRST_NAME,
+  LAST_NAME,
+  MOBILE_NUMBER,
+} from "./form.field";
+import { FIELD_IDS } from "./form.fieldId";
+
+export const FORM_CONFIG = {
+  [FIELD_IDS.FIRST_NAME]: FIRST_NAME,
+  [FIELD_IDS.LAST_NAME]: LAST_NAME,
+  [FIELD_IDS.COUNTRY_CODE]: COUNTRY_CODE,
+  [FIELD_IDS.MOBILE_NUMBER]: MOBILE_NUMBER,
+};
